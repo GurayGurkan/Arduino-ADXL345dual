@@ -1,5 +1,9 @@
 /*
-ADXL345_dual.cpp - Class file for the ADXL345 Triple Axis Accelerometer Arduino Library.
+ADXL345dual.cpp - Class file for the ADXL345 Triple Axis Accelerometer Arduino Library.
+
+Version: 2.1.0
+change log: Two ADXL345 devices can be used (Jan 2018), Guray Gurkan
+			Just add a new argument as device index being 0 or 1, to each command. Ex: device.begin(0)
 
 Version: 1.1.0
 (c) 2014 Korneliusz Jarzebski
